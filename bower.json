@@ -1,0 +1,22 @@
+{
+  "name": "Responsive-Icon-Grid",
+  "homepage": "https://github.com/BaronAndrew1/Responsive-Icon-Grid",
+  "authors": [
+    "Andrew Baron <Drowelfofdead@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
