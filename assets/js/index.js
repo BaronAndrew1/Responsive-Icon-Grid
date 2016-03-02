@@ -3,9 +3,9 @@ var hoverTarget = $('li');
 hoverTarget.on("mouseover", function() {
     $(this).find($('.bar-blue')).removeClass('active');
     $(this).find($('.bar-white')).addClass('active');
-    $(this).css("background-color","#47a3da")
-    $(this).find($('i')).css("color","white")
-    $(this).find($('h1')).css("color","white")
+    $(this).css('transition-duration','1s').css("background-color","#47a3da")
+    $(this).find($('i')).css('transition-duration','1s').css("color","white")
+    $(this).find($('h1')).css('transition-duration','1s').css("color","white")
 
   });
 hoverTarget.on("mouseout", function() {
